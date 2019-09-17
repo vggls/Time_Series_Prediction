@@ -1,7 +1,6 @@
 # time_series_prediction_hankel_and_dmd
 
 In this repo we consider the free "Air Passengers" time series dataset which is available on Kaggle.
-(https://www.kaggle.com/chirag19/air-passengers)
 
 The task is to build a prediction model. 
 
