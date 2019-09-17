@@ -12,7 +12,8 @@ Then, taking advantage of the "linear" behaviour of our system, we refer to the 
 determine the DMD modes of the system and make predictions about the future behaviour of our system.
 
 
-Remark
+REMARK :
+
 Looking at the results in the end of the notebook we observe that the model does not seem to work perfectly close to the actual data points.
 Any corrections and remarks are more than welcome !
 However, in any case, this short repo could be seen as a chance to get an idea of both the Hankel matrix and the DMD algorithm and
