@@ -3,7 +3,7 @@
 **- Task**: We consider a 35-year (Rhine) river level dataset where each time observation describes the water level at that time for multiple cities located across the river.
 The task is to build a model that predicts the river's future water level for each city.
 
-**- Approach 1**: SARIMA model
+**- Approach 1**: SARIMA model (Seasonal ARIMA model)
 
 (to do)
 
