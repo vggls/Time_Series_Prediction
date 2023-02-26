@@ -1,17 +1,8 @@
-# README
+## Intro
 
-**- Task**: We consider a 35-year (Rhine) river level dataset where each time observation describes the water level at that time for multiple cities located across the river.
-The task is to build a model that predicts the river's future water level for each city.
+This repo aims to present 3 different techniques for making time series prediction.
 
-**- Approach 1**: SARIMA model (Seasonal ARIMA model)
-
-(to do)
-
-**- Approach 2**: LSTM neural networks
-
-(to do)
-
-**- Approach 3**: Hankel Matrix and DMD algorithm
+## Approach 1: Hankel Matrix and DMD algorithm
 
 HankelMatrix_and_DMDalg__model.ipynb
 
@@ -22,3 +13,14 @@ determine the DMD modes of the system and make predictions about the future beha
 Useful Links
 - Hankel matrix : https://en.wikipedia.org/wiki/Hankel_matrix
 - DMD : https://en.wikipedia.org/wiki/Dynamic_mode_decomposition
+
+Dataset: We consider a 35-year (Rhine) river level dataset where each time observation describes the water level at that time for multiple cities located across the river. The task is to build a model that predicts the river's future water level for each city. The dataset cannot be made public.
+
+## Approach 2: SARIMA model (Seasonal ARIMA model)
+
+(to do)
+
+## Approach 3: LSTM neural networks
+
+(to do)
+
