@@ -2,7 +2,11 @@
 
 This repo aims to present 3 different techniques for making time series prediction.
 
-## Approach 1: Hankel Matrix and DMD algorithm
+## Approach 1: LSTM neural networks
+
+(to do)
+
+## Approach 2: Hankel Matrix and DMD algorithm
 
 HankelMatrix_and_DMDalg__model.ipynb
 
@@ -16,11 +20,6 @@ Useful Links
 
 Dataset: We consider a 35-year (Rhine) river level dataset where each time observation describes the water level at that time for multiple cities located across the river. The task is to build a model that predicts the river's future water level for each city. The dataset cannot be made public.
 
-## Approach 2: SARIMA model (Seasonal ARIMA model)
+## Approach 3: SARIMA model (Seasonal ARIMA model)
 
 (to do)
-
-## Approach 3: LSTM neural networks
-
-(to do)
-
