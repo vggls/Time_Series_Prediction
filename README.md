@@ -12,7 +12,7 @@ HankelMatrix_and_DMDalg__model.ipynb
 
 In this approach we see the time data points as snapshots of an underlying non-linear dynamical system. First we build the time-delayed Hankel matrix in order to embed the system into a space where it behaves  similar to a linear system. We conclude that by observing the time-evolution of the principal components of the Hankel matrix.
 Then, taking advantage of the "linear" behaviour of our system, we refer to the Dynamic Mode Decomposition (DMD) of the Hankel matrix in order to
-determine the DMD modes of the system and make predictions about the future behaviour of our system.
+determine the DMD nodes of the system and make predictions about future behaviour.
 
 Useful Links
 - Hankel matrix : https://en.wikipedia.org/wiki/Hankel_matrix
