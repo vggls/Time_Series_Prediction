@@ -1,8 +1,8 @@
 ## Intro
 
-This repo aims to present 3 different techniques for making time series prediction.
+This repo aims at presenting different techniques for making time series prediction.
 
-## Approach 1: LSTM neural networks
+## Approach 1: ARIMA models & LSTM neural networks
 
 (to do)
 
@@ -19,7 +19,3 @@ Useful Links
 - DMD : https://en.wikipedia.org/wiki/Dynamic_mode_decomposition
 
 Dataset: We consider a 35-year (Rhine) river level dataset where each time observation describes the water level at that time for multiple cities located across the river. The task is to build a model that predicts the river's future water level for each city. The dataset cannot be made public.
-
-## Approach 3: SARIMA model (Seasonal ARIMA model)
-
-(to do)
