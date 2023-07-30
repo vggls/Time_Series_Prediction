@@ -9,7 +9,7 @@ This repo aims at presenting different techniques for making time series predict
 
 Dataset: https://www.kaggle.com/datasets/sumanthvrao/daily-climate-time-series-data
 
-Each datapoint is a daily measurement of 4 features describing climate conditions. We first deal with outliers and the stationarity issue (via the ADF test) and then build one ARIMA model for each feature and one multifeature LSTM model equipped with trend and seasonality features to tackle underfitting. We note that the current LSTM model is not fine tuned (to do). However, it still serves our comparison purposes between ARIMA and LSTM. 
+Each datapoint is a daily measurement of 4 features describing climate conditions. We first deal with outliers and the stationarity issue (use ADF test to detect and Differencing technique) and then build one ARIMA model for each feature and one multifeature LSTM model equipped with trend and seasonality features to tackle underfitting. We note that the current LSTM model is not fine tuned (to do). However, it still serves our comparison purposes between ARIMA and LSTM. 
 
 The calculated performance results are as included in the following table. We note that the LSTM outperforms ARIMA in all features.  
         
