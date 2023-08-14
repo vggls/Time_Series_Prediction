@@ -9,9 +9,10 @@ This repo aims at presenting different techniques for making time series predict
 
 Dataset: https://www.kaggle.com/datasets/sumanthvrao/daily-climate-time-series-data
 
-Each datapoint is a daily measurement of 4 features describing climate conditions. We first deal with outliers and the stationarity issue (use ADF test to detect and Differencing technique) and then build one ARIMA model for each feature and one multifeature LSTM model equipped with trend and seasonality features to tackle underfitting. We note that the current LSTM model is not fine tuned (to do). However, it still serves our comparison purposes between ARIMA and LSTM. 
+Each datapoint is a daily measurement of 4 features describing climate conditions. We first deal with outliers and the stationarity issue (use ADF test to detect and Differencing technique) and then build one ARIMA model for each feature and one multifeature LSTM model equipped with trend and seasonality features to tackle underfitting. We note that the current LSTM model is not fine tuned (*to do*). However, it still serves our comparison purposes between ARIMA and LSTM. 
 
-The calculated performance results are as included in the following table. We note that the LSTM outperforms ARIMA in all features.  
+#### --> Performance results 
+We note that the LSTM outperforms ARIMA in all features.  
         
             | ----------- | ---- MAE ---- |  ----RMSE----- |    
             | feature     | ARIMA   LSTM  |  ARIMA   LSTM  |
@@ -21,6 +22,13 @@ The calculated performance results are as included in the following table. We no
             | meanpressure|  6.57   5.17  |   8.31   6.67  |
             ------------------------------------------------
             where MAE = Mean Absolute Error, RMSE = sqRt of Mean Squared Error
+
+#### --> A short recap on theory basics
+   <p align="left">
+     <img src="https://github.com/vggls/Time_Series_Prediction/assets/55101427/b78238e3-e39d-42aa-bc60-ccee4cf514e0.png" height="340" width="480" />
+     <img src="https://github.com/vggls/Time_Series_Prediction/assets/55101427/18b68d0f-176e-42d6-b970-82f09c3536a3.png" height="360" width="380" />
+   </p>
+<!-- Good source article on ARIMA models: https://www.capitalone.com/tech/machine-learning/understanding-arima-models/ -->
 
 ## Approach 2: Hankel Matrix and DMD algorithm
 
@@ -32,6 +40,6 @@ In this approach we see the time data points as snapshots of an underlying non-l
 Then, taking advantage of the "linear" behaviour of our system, we refer to the Dynamic Mode Decomposition (DMD) of the Hankel matrix in order to
 determine the DMD nodes of the system and make predictions about future behaviour.
 
-Useful Links
+Useful Links:
   - Hankel matrix : https://en.wikipedia.org/wiki/Hankel_matrix
   - DMD : https://en.wikipedia.org/wiki/Dynamic_mode_decomposition
