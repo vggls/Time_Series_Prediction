@@ -27,7 +27,7 @@ We note that the LSTM outperforms ARIMA in all features.
 *(more detail to be added)*
    <p align="left">
      <img src="https://github.com/vggls/Time_Series_Prediction/assets/55101427/07720097-63b5-457a-b49d-217c9e734d13.png" height="360" width="500" />
-     <img src="https://github.com/vggls/Time_Series_Prediction/assets/55101427/a9c5ed62-778c-4c66-ad5b-22fbe80fc9a1.png" height="670" width="500" />
+     <img src="https://github.com/vggls/Time_Series_Prediction/assets/55101427/e71dc391-dc56-4118-94ef-e8ab45e586ef.png" height="670" width="500" />
    </p>
 <!-- Good source article on ARIMA models: https://www.capitalone.com/tech/machine-learning/understanding-arima-models/ -->
 
