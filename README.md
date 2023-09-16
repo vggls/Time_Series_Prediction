@@ -11,7 +11,7 @@ Dataset: https://www.kaggle.com/datasets/sumanthvrao/daily-climate-time-series-d
 
 Each datapoint is a daily measurement of 4 features describing climate conditions. We first deal with outliers and the stationarity issue (use ADF test to detect and Differencing technique) and then build one ARIMA model for each feature and one multifeature LSTM model equipped with trend and seasonality features to tackle underfitting. We note that the current LSTM model is not fine tuned (*to do*). However, it still serves our comparison purposes between ARIMA and LSTM. 
 
-#### --> Performance results 
+### Performance results:
 We note that the LSTM outperforms ARIMA in all features.  
         
             | ----------- | ---- MAE ---- |  ----RMSE----- |    
@@ -23,11 +23,11 @@ We note that the LSTM outperforms ARIMA in all features.
             ------------------------------------------------
             where MAE = Mean Absolute Error, RMSE = sqRt of Mean Squared Error
 
-#### --> A short recap on theory basics
+### A short recap on theory basics:
 *(more detail to be added)*
-   <p align="left">
+   <p align="center">
+     <img src="https://github.com/vggls/Time_Series_Prediction/assets/55101427/7ba011ff-68d4-43da-babe-b14f204d302d.png" height="650" width="500" />
      <img src="https://github.com/vggls/Time_Series_Prediction/assets/55101427/07720097-63b5-457a-b49d-217c9e734d13.png" height="360" width="500" />
-     <img src="https://github.com/vggls/Time_Series_Prediction/assets/55101427/e71dc391-dc56-4118-94ef-e8ab45e586ef.png" height="670" width="500" />
    </p>
 <!-- Good source article on ARIMA models: https://www.capitalone.com/tech/machine-learning/understanding-arima-models/ -->
 
